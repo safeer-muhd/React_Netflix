@@ -25,7 +25,7 @@ function Banner() {
                     <button className='button'>Play</button>
                     <button className='button'>My list</button>
                 </div>
-                <h2 className='description'>{movie ? movie.overview :''}</h2>
+                <h3 className='description'>{movie ? movie.overview :''}</h3>
             </div>
             <div className="fade_bottom"></div>
         </div>

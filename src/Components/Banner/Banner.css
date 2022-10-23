@@ -1,18 +1,20 @@
 .banner{
     background-size: cover;
-    height: 750px;
+    object-fit: cover;
+    background-position: center;
+    height: 500px;
     color: white;
     
 }
 .content{
-    padding-top: 150px;
+    padding-top: 115px;
     height: 100px;
     padding-left: 20px;
 }
 .title{
     font-size: 3rem;
     font-weight: 800;
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
 }
 .button{
     color: white;
@@ -38,9 +40,9 @@
     line-height: 1;
     padding-top: 2rem;
     height: 60px;
-    max-width: 400px;
+    max-width: 360px;
 }
 .fade_bottom{
-    height: 31.4rem;
+    height: 18.4rem;
     background-image: linear-gradient(180deg,transparent,rgba(37,37,37,.61),#111);
 }
