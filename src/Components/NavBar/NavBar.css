@@ -5,7 +5,12 @@
     padding: 20px;
     display: flex;
     justify-content: space-between;
-    background-color: rgba(51, 51, 51, .1);
+    z-index: 1;
+    transition: .5s ease-in;
+    overflow: hidden;
+}
+.nav_theme{
+    background-color:rgba(0, 0, 0,.9);
 }
 .logo{
     left: 20px;

@@ -8,21 +8,19 @@
     overflow: hidden;
     overflow-x: scroll;
     overflow-y: hidden;
-    
 }
 .posters img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .posters::-webkit-scrollbar{
     display: none;
 }
 .poster{
     display: block;
-    max-height: 250px;
-    margin-right: 10px;
+    max-height: 180px;
+    margin-right: 7px;
     cursor: pointer;
     transition: transform,0.3s;
-    transform-origin: center;
 }
 .smallPoster{
     max-height: 150px;
