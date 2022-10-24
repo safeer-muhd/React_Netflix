@@ -17,14 +17,16 @@
 }
 .poster{
     display: block;
-    max-height: 180px;
+    height: 300px;
+    width: 257px;
     margin-right: 7px;
     cursor: pointer;
     transition: transform,0.3s;
 }
 .smallPoster{
-    max-height: 150px;
-    margin-right: 10px;
+    height: 210px;
+    width: 188px;
+    margin-right: 7px;
     cursor: pointer;
     transition: transform,0.3s;
 }
